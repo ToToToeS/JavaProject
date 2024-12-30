@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef1a73fc-782c-47e2-aa22-2d4bf9eb4556" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../GrokaemAlgoritms/GrokaemAlgoritms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SampleJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/out/production/Grokaem Algoritms/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/out/production/Grokaem Algoritms/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/out/production/Grokaem Algoritms/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/out/production/Grokaem Algoritms/TestHeshMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/src/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/src/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/src/TestHeshMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode/out/production/LeetCode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/out/production/LeetCode/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode/out/production/LeetCode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/out/production/LeetCode/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95259" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95263" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95267" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95271" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95275" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95279" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95283" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95287" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95291" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95295" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95299" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95301" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95305" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95309" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95313" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95317" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95321" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95325" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95329" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95333" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95337" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95341" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95345" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95349" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95351" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95355" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95359" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95363" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95367" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95371" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95375" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95379" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95383" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95387" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95391" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95395" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95399" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95401" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95405" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95409" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95413" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95417" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95421" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95425" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95429" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95433" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95437" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95457" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.driveupload/95511" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Новый текстовый документ.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2qvUAlZCeXWrCLzZej8LYNN9fVx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/MyProject/java project/SampleJava&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/MyProject/java project/SampleJava/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="ClassesAndObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassesAndObjects" />
+      <module name="SampleJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ClassesAndObjects" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef1a73fc-782c-47e2-aa22-2d4bf9eb4556" name="Changes" comment="" />
+      <created>1735542404080</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735542404080</updated>
+      <workItem from="1735542405091" duration="50000" />
+      <workItem from="1735542647532" duration="25000" />
+      <workItem from="1735542888631" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

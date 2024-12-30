@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d12adae4-7d0c-4954-8c47-266988cb5dc3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../GrokaemAlgoritms/GrokaemAlgoritms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SampleJava/SampleJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/out/production/Grokaem Algoritms/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/out/production/Grokaem Algoritms/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/out/production/Grokaem Algoritms/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/out/production/Grokaem Algoritms/TestHeshMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/src/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/src/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Grokaem Algoritms/src/TestHeshMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SampleJava/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95259" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95263" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95267" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95271" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95275" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95279" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95283" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95287" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95291" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95295" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95299" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95301" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95305" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95309" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95313" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95317" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95321" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95325" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95329" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95333" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95337" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95341" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95345" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95349" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95351" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95355" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95359" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95363" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95367" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95371" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95375" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95379" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95383" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95387" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95391" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95395" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95399" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95401" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95405" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95409" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95413" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95417" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95421" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95425" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95429" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95433" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95437" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95457" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/.tmp.driveupload/95511" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/out/production/SampleJava/Arrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/out/production/SampleJava/ArraysOfStringth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/out/production/SampleJava/ClassesAndObjects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/out/production/SampleJava/Continue_break.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/out/production/SampleJava/DoWhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/out/production/SampleJava/ForLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/out/production/SampleJava/Helloworld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/out/production/SampleJava/Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/out/production/SampleJava/Human2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/out/production/SampleJava/If.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/out/production/SampleJava/Lesson19This.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/out/production/SampleJava/Lesson20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/out/production/SampleJava/Multidimensional_array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/out/production/SampleJava/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/out/production/SampleJava/Strings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/out/production/SampleJava/Switch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/out/production/SampleJava/Variables.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/out/production/SampleJava/WhileLoops.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/out/production/SampleJava/input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SampleJava/Новый текстовый документ.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2qvUijeq6k3Rj5RswHYcchf3z7K" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/MyProject/java project/LeetCode/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d12adae4-7d0c-4954-8c47-266988cb5dc3" name="Changes" comment="" />
+      <created>1735542673129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735542673129</updated>
+      <workItem from="1735542674243" duration="31000" />
+      <workItem from="1735542758949" duration="119000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
