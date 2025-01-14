@@ -1,3 +1,5 @@
+package Lessons;
+
 public class Strings {
     public static void main(String[] args) {
         double x = 2323.23;

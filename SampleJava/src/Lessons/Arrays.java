@@ -1,3 +1,5 @@
+package Lessons;
+
 public class Arrays {
     public static void main(String args[]){
         int MyInt = 10; //Примитивный тип данных   [10]

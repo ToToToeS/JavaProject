@@ -1,3 +1,5 @@
+package Lessons;
+
 public class Variables {
     public static void main(String[] args){
         int myInt = 12; // 32 бита целые числа

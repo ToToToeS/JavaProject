@@ -1,3 +1,5 @@
+package Lessons;
+
 import java.sql.SQLOutput;
 
 public class ArraysOfStringth {

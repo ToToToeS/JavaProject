@@ -5,15 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef1a73fc-782c-47e2-aa22-2d4bf9eb4556" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lesson22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inheritance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraysOfStringth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/ArraysOfStringth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassesAndObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/ClassesAndObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Continue_break.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Continue_break.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/DoWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ForLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/ForLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Helloworld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Helloworld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/If.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/If.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson19This.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson19This.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Lesson22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MethodsWorkWithString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/MethodsWorkWithString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Multidimensional_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Multidimensional_array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Strings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Switch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Switch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Testing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/Variables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WhileLoops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/WhileLoops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/inheritance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lessons/input.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,21 +51,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/MyProject/java project/SampleJava&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/MyProject/java project/SampleJava/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/MyProject/java project/GrokaemAlgoritms",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "D:/MyProject/java project/SampleJava/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Test">
     <configuration name="ClassesAndObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClassesAndObjects" />
@@ -111,10 +123,27 @@
       <workItem from="1735542888631" duration="19000" />
       <workItem from="1735543558107" duration="4174000" />
       <workItem from="1735640845663" duration="1997000" />
+      <workItem from="1735646086565" duration="127000" />
+      <workItem from="1735649785829" duration="647000" />
+      <workItem from="1735833184301" duration="641000" />
+      <workItem from="1736766486317" duration="16000" />
     </task>
+    <task id="LOCAL-00001" summary=" My progress on 31.12.2024">
+      <option name="closed" value="true" />
+      <created>1735646150042</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735646150042</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" My progress on 31.12.2024" />
+    <option name="LAST_COMMIT_MESSAGE" value=" My progress on 31.12.2024" />
   </component>
 </project>

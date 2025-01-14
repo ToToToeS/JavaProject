@@ -1,5 +1,4 @@
-import java.sql.SQLOutput;
-import java.util.Scanner;
+package Lessons;
 
 public class Lesson20 {
     public static void main(String[] args) {
