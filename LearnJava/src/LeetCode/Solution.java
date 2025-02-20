@@ -156,4 +156,53 @@ class Solution {
         }
         return list;
     }
+
+    public int[] productExceptSelf(int[] nums) {
+        int[] res = new int[nums.length];
+        int product = 1;
+        int check = 0;
+        for(int num : nums){
+            if (num != 0) product *= num;
+            else check++;
+        }
+
+        switch (check){
+            case(0):
+                for(int i = 0; i < nums.length; i++){
+                    res[i] = product / nums[i];
+                }
+                break;
+
+            case(1):
+                for(int i = 0; i < nums.length; i++){
+                    if(nums[i] != 0) res[i] = 0;
+                    else res[i] = product;
+                }
+                break;
+
+            default:
+                for(int num : res){
+                    num = 0;
+                }
+        }
+        return res;
+    }
+
+    public boolean isValidSudoku(char[][] board) {
+        for(int i = 0; i < 9; i++){
+            Set<Character> setI = new HashSet<>();
+            Set<Character> setJ = new HashSet<>();
+            for(int j = 0; j < 9; j++){
+
+                if(setI.contains(board[i][j])) return false;
+                else if (board[i][j] != '.') setI.add(board[i][j]);
+
+                if(setJ.contains(board[j][i])) return false;
+                else if (board[j][i] != '.') setJ.add(board[j][i]);
+
+            }
+        }
+        return true;
+    }
+
 }
