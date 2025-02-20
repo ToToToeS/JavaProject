@@ -117,4 +117,43 @@ class Solution {
         return Arrays.equals(ch1, ch2);
 
     }
+
+    public int[] topKFrequent(int[] nums, int k) {
+        Map<Integer, Integer> exist = new HashMap<>();
+        int array[] = new int[k];
+
+        for(int num : nums) {
+            if (!exist.containsKey(num)) exist.put(num, 1);
+            else exist.put(num, exist.get(num) + 1);
+        }
+
+        for(int i = 0; i < k;i++) {
+            int key = 0;
+            for(int j = 1; j < nums.length; j++){
+                if(exist.get(nums[j]) > exist.get(nums[key])) key = j;
+            }
+            array[i] = nums[key];
+            exist.put(array[i], 0);
+        }
+        return array;
+    }
+
+    public String encode(List<String> strs) {
+        StringBuilder stringBuilder = new StringBuilder();
+
+        for(int i = strs.size() - 1; i <= 0; i--){
+
+        }
+        stringBuilder.delete(0, 2);
+        return  stringBuilder.toString();
+    }
+
+    public List<String> decode(String str) {
+        List<String> list = new ArrayList<>();
+        String[] arr = str.split(",");
+        for( String s : arr){
+            list.add(s);
+        }
+        return list;
+    }
 }
