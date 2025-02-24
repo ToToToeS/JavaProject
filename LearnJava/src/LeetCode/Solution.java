@@ -2,6 +2,8 @@ package LeetCode;
 
 import java.util.*;
 
+import static java.lang.Math.abs;
+
 class Solution {
 
     static public int removeDuplicates(int[] nums) {
@@ -257,5 +259,42 @@ class Solution {
         StringBuilder revers = new StringBuilder(s);
         String r = revers.reverse().toString();
         return r.equalsIgnoreCase(s);
+    }
+
+    public int[] twoSum2(int[] numbers, int target) {
+        int r = numbers.length - 1;
+        int l = 0;
+        while(r > l){
+            int sum = numbers[l] + numbers[r];
+
+            if (sum == target) return new int[]{l + 1, r + 1};
+            else if (sum > target) r--;
+            else l++;
+        }
+        return null;
+    }
+
+    public List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums);
+        List<Integer> listNumbers = new ArrayList<>();
+        List<List<Integer>> list = new ArrayList<>();
+        for (int num : nums) {
+            listNumbers.add(num);
+        }
+
+        for (int i = 0; i  < nums.length / 3; i++) {
+
+            int l = 0;
+            int r = nums.length - 1;
+
+            if (abs(listNumbers.getFirst()) > (listNumbers.getLast())) {
+                while ( r > l){
+
+                }
+            } else {
+
+            }
+        }
+        return list;
     }
 }

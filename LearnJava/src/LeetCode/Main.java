@@ -7,8 +7,9 @@ import java.util.Set;
 
 public class Main {
     public static void main(String[] args){
-      String ss = "`l;`` 1o1 ??;l`";
-      Solution s = new Solution();
-      System.out.println(s.isPalindrome(ss));
+        List<Integer> ss = new ArrayList<>();
+        ss.add(1);
+        ss.set(0, null);
+        System.out.println(ss.get(0) + 1);
     }
 }
