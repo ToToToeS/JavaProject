@@ -297,4 +297,82 @@ class Solution {
         }
         return list;
     }
+
+    public boolean isPalindrome(int x) {
+        String str = Integer.toString(x);
+        char[] chars = str.toCharArray();
+
+        int l = 0;
+        int r = chars.length - 1;
+
+        while (r > l) {
+            if (chars[l] != chars[r]) return false;
+            l++;
+            r--;
+        }
+        return true;
+    }
+
+    public boolean isPalindromev2(int x) {
+        int rev = 0;
+        int temp = x;
+
+        while (x > 0) {
+            rev = rev*10 + x%10;
+            x /= 10;
+        }
+
+        return rev == temp;
+    }
+
+    public String intToRoman(int num) {
+        int[] value = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
+        String[] sym = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+
+        int i = 0;
+        StringBuilder s = new StringBuilder();
+        while (num > 0) {
+            if (num >= value[i]) {
+                s.append(sym[i]);
+                num -= value[i];
+            }else i++;
+        }
+        return s.toString();
+    }
+
+    public List<String> letterCombinations(String digits) {
+        Map<String, String[]> letters = new HashMap<>();
+        List<String> letterCombination = new ArrayList<>();
+        letterCombination.add("");
+
+      letters.put("2", new String[]{"a", "b", "c"});
+      letters.put("3", new String[]{"d", "e", "f"});
+      letters.put("4", new String[]{"g", "h", "i"});
+      letters.put("5", new String[]{"j", "k", "l"});
+      letters.put("6", new String[]{"m", "n", "o"});
+      letters.put("7", new String[]{"p", "q", "r", "s"});
+      letters.put("8", new String[]{"t", "u", "v"});
+      letters.put("9", new String[]{"w", "x", "y", "z"});
+
+      String[] digitsArray  = digits.split("");
+
+      for (int i = 0;i < digitsArray.length; i++) {
+          letterCombination = combine(letterCombination, letters.get(digitsArray[i]));
+      }
+
+
+      return letterCombination;
+    }
+
+    private List<String> combine (List<String> list, String[] stringsArray) {
+        List<String> nList = new ArrayList<>();
+
+        for (String l : list){
+            for (int i = 0; i < stringsArray.length; i++) {
+                nList.add(l + stringsArray[i]);
+            }
+        }
+
+        return nList;
+    }
 }
