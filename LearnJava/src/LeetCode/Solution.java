@@ -1,5 +1,6 @@
 package LeetCode;
 
+import javax.swing.*;
 import java.util.*;
 
 import static java.lang.Math.abs;
@@ -274,30 +275,6 @@ class Solution {
         return null;
     }
 
-    public List<List<Integer>> threeSum(int[] nums) {
-        Arrays.sort(nums);
-        List<Integer> listNumbers = new ArrayList<>();
-        List<List<Integer>> list = new ArrayList<>();
-        for (int num : nums) {
-            listNumbers.add(num);
-        }
-
-        for (int i = 0; i  < nums.length / 3; i++) {
-
-            int l = 0;
-            int r = nums.length - 1;
-
-            if (abs(listNumbers.getFirst()) > (listNumbers.getLast())) {
-                while ( r > l){
-
-                }
-            } else {
-
-            }
-        }
-        return list;
-    }
-
     public boolean isPalindrome(int x) {
         String str = Integer.toString(x);
         char[] chars = str.toCharArray();
@@ -374,5 +351,78 @@ class Solution {
         }
 
         return nList;
+    }
+
+    public List<List<Integer>> MyThreeSum(int[] nums) {
+        if (nums.length % 3 != 0) return null;
+        int multiplicity = nums.length / 3;
+
+        Arrays.sort(nums);
+        List<Integer> elements = new ArrayList<>();
+
+        List<List<Integer>> threeSum = new ArrayList<>();
+
+        for(int num : nums) {
+            elements.add(num);
+        }
+
+        for (int x = 0; x < multiplicity; x++){
+            int last = elements.get(elements.size() - 1);
+            int first = elements.get(0);
+            for (int  i = 1; i < elements.size() - 1; i++) {
+                if ( last + first == -1 * elements.get(i)){
+                    List<Integer> list = new ArrayList<>();
+                    list.add(first);
+                    list.add(last);
+                    list.add(elements.get(i));
+                    elements.remove(i);
+                    elements.remove(0);
+                    elements.remove(elements.size() - 1);
+                    threeSum.add(list);
+                }
+            }
+        }
+        return threeSum;
+    }
+
+    public List<List<Integer>> threeSumv1(int[] nums) {
+        Arrays.sort(nums);
+        Set<List<Integer>> elements = new HashSet<>();
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                for (int f = j + 1; f < nums.length; f++) {
+                    if (nums[i] + nums[j] + nums[f] == 0) {
+                        List<Integer> tmp = Arrays.asList();
+                        elements.add(tmp);
+                    }
+                }
+            }
+        }
+        return new ArrayList<>(elements);
+    }
+
+    public List<List<Integer>> threeSum(int[] nums) {
+        Arrays.sort(nums);
+        Set<List<Integer>> res = new HashSet<>();
+        for(int i = 0; i < nums.length; i++) {
+            int l = 0;
+            int r = nums.length-1;
+            while (l < r) {
+                if (i == l) l++;
+                if (i == r) r--;
+                if (r == l) l++;
+                if (nums[i] + nums[r] + nums[l] == 0) {
+                    int[] arr = {nums[i], nums[l], nums[r]};
+                    Arrays.sort(arr);
+                    Integer[] integerArray = Arrays.stream(arr).boxed().toArray(Integer[]::new);
+
+                    List<Integer> list = new ArrayList<>(Arrays.asList(integerArray));
+                    res.add(list);
+                }
+                if (nums[r] + nums [l] + nums[i] > 0) r--;
+                else l++;
+            }
+        }
+        return new ArrayList<>(res);
     }
 }
