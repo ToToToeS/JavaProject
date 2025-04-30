@@ -425,4 +425,116 @@ class Solution {
         }
         return new ArrayList<>(res);
     }
+
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        ListNode node = head;
+        int size = 1;
+
+        while(node.next != null) {
+            node = node.next;
+            size++;
+        }
+
+        if (size - n == 0) return head.next;
+
+        int indexForDel = size - n;
+        node = head;
+
+        for (int i = 0; i < indexForDel; i++) {
+            if (i == indexForDel - 1) {
+                ListNode backNode = node;
+                node = node.next.next;
+                backNode.next = node;
+            }else node = node.next;
+        }
+
+        return head;
+    }
+
+    public List<String> generateParenthesis(int n) {
+        List<String> res = new ArrayList<>();
+        res.add("(");
+
+        for(int i = 1; i < n; i++) {
+            int length = res.size();
+            for (int j = 0; j < length; j++) {
+                String def = res.get(j);
+
+                res.set(j, def + "(");
+                res.add(def + ")");
+
+            }
+        }
+
+        for (int i = 0; i < res.size(); i++) {
+            String s = res.get(i);
+            res.set(i, mirror(s));
+        }
+        return res;
+    }
+
+    String mirror(String s) {
+        char[] chars = s.toCharArray();
+        StringBuilder sb = new StringBuilder(s);
+
+        for (int i = 0; i < chars.length; i++) {
+            if (chars[i] == '(') sb.append(')');
+            else sb.append('(');
+        }
+        return sb.toString();
+    }
+
+    public int threeSumClosest(int[] nums, int target) {
+        int closestSum = Integer.MAX_VALUE;
+        int closestNum = Integer.MAX_VALUE;
+        int indexClosestNum = -1;
+
+        for (int i = 0; i < nums.length; i++) {
+            if (distanceNum(nums[i], target) < distanceNum(closestNum, target)) {
+                indexClosestNum = i;
+                closestNum = nums[i];
+            }
+        }
+
+        for (int i = 0; i < nums.length; i++) {
+            if (i == indexClosestNum) continue;
+            for (int j = i + 1; j < nums.length; j++) {
+                if (j == indexClosestNum) continue;
+                if(Math.abs(nums[i] + nums[j] + closestNum - target) <= Math.abs(closestSum - target))
+                    closestSum = nums[i] + nums[j] + closestNum;
+            }
+        }
+
+        return closestSum;
+
+    }
+
+    private int distanceNum(int a, int b) {
+        if (a < b) return Math.abs(b - a);
+        else return Math.abs(a - b);
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode() {}
+    ListNode(int val) { this.val = val; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ }

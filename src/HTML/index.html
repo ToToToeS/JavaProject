@@ -4,15 +4,174 @@
   <meta charset="UTF-8"> <!-- Коментарий -->
   <title>Test HTML</title>
   <meta name="author" content="Shatilo AI">
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<h1>Заголовок 1</h1>
-<h2>Заголовок 2</h2>
+<a href="#DownPls"> Вниз по ссылку якорю</a>
+<h1>Заголовок <small>1</small></h1>
+<h2>Заголовок <big>2</big></h2>
 <h3>Заголовок 3</h3>
 <h4>Заголовок 4</h4>
 <h5>Заголовок 5</h5>
 
 <p>Просто текст</p>
-<p>Просто параграф <b>Просто жир</b></p>
+<p>Просто параграф
+  <b>Просто жир</b>
+  <i>Просто курсив </i>
+  <strike>Просто перечеркнут </strike>
+</p>
+
+H<sub>2</sub>O <br>
+<hr> <!-- Прямая линия -->
+a<sup>2</sup>*a=a<sup>3</sup>
+
+<abbr title="HyperText Markup Language">HTML</abbr><br>
+<address>
+  Seatle, USA
+</address>
+<pre>
+  function some() {
+    return "Some"
+  }
+</pre>
+<pre><code>
+  for (int i = 0; i < 5; i++) {
+  System.out.println(i + " ")
+  }
+</code>
+</pre>
+
+<hr>
+<hr>
+<h1>New lesson List</h1>
+<ol start="1" type="I">
+  <li title="Evgen lox">Hello</li>
+  <li>World</li>
+  <li>!!!</li>
+</ol>
+
+<ul type="square">
+  <li>Не</li>
+  <li>Пронуменрованный</li>
+  <li>Список</li>
+</ul>
+
+<hr>
+<hr>
+<h1>New lesson hyperlink</h1>
+<a title="Нажми на меня" href="http://google.com" target="_self"> Пререйти в Google</a>
+<br>
+<a href="slide.html">Перейти на локальную страницу HTML</a> <br>
+<a href="mailto:rachinacom@mail.ru">На почту при помощу mailto</a> <br>
+
+<hr>
+<hr>
+<h1>New lesson about img</h1> <br>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsHOcTAsU40PaRyL8Z2CkTrZFKJhpJ03tpQh1cEV4YXKAht89phoTjX3lXmGBCMyMtzdw&usqp=CAU" alt="Природка" width="10%" height="10%">
+<hr>
+<hr>
+<h1>Lesson about table</h1>
+  <table border="1" width="100px">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Surname</th>
+      </tr>
+    </thead>
+    <tbody align="center">
+      <tr>
+        <td>Ivan</td>
+        <td>Vitaly</td>
+      </tr>
+
+      <tr>
+        <td>Ivan</td>
+        <td>Vitaly</td>
+      </tr>
+
+      <tr>
+        <td>Ivan</td>
+        <td>Vitalya</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td> Final string</td>
+        <td> Final string</td>
+      </tr>
+    </tfoot>
+  </table>
+<hr>
+<hr>
+<h1>Teg div and span</h1>
+<div>Просто блок</div>
+<div>Просто блок</div>
+<span>Просто строки</span> <span>Просто строки</span>
+
+<hr>
+<hr>
+
+<h1>Form HTML</h1>
+
+  <form action="index.html" method="post">  <!--action Обрабатывает данные из формы и отправляет их на страницу-->
+    <label for="UserName">Введите имя</label>
+    <input type="texte" placeholder="Enter smth"
+           value="smth" maxlength="5" name="UserName" id="UserName"> <br><br>
+
+    <input type="password"> <br><br>
+    <input type="checkbox"> <br><br>
+    <input type="email"> <br><br>
+    <input type="color"> <br><br>
+    <input type="date"> <br><br>
+    <input type="radio" name="OneNameForBoth">
+    <input type="radio" name="OneNameForBoth"> <br><br>
+    <input type="button" value="Отправить" id="IdButton"> <br><br>
+    <input type="submit" > <!-- перегружает страницу при нажатии -->
+    <input type="reset" value="Очистить поля">
+  </form>
+<hr>
+<hr>
+<h1> Textarea and teg button</h1>
+<form>
+  <textarea placeholder="Enter smth" maxlength="300"> Здесь нужно прописать текст вместо value</textarea> <br><br>
+<button type="button">Button</button>
+</form>
+
+<hr>
+<hr>
+<h1>Selector choosing</h1>
+  <for>
+    <select multiple>
+      <option selected disabled > >___< </option>
+      <option>BMW</option>
+      <option>Audi</option>
+      <option>Mercedes</option>
+    </select>
+  </for>
+
+<hr>
+<hr>
+
+<h1>Special HTML teg</h1>
+<header>Shapcka</header> <!-- Тоже сомое что и div только для шапки -->
+<main>Main</main> <!-- Тоже сомое что и div только для основной части -->
+<aside>Для описание боковой секции</aside> <!-- Тоже сомое что и div только для боковой части -->
+<footer>Футер</footer>
+<br><br>
+
+<progress max="100" value="75">Загруженно на 75%</progress>
+<br>
+
+<details>
+  <summary>
+    Выподающий текст при помощи details and summary
+  </summary>
+
+  Тут прописывается текст который нужен
+</details>
+
+
+<a name="DownPls"></a>
+<script src="main.js"></script>
 </body>
 </html>
