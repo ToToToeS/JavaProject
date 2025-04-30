@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="17665531-d6f8-4784-b9da-3f7cea438d98" name="Changes" comment="">
+    <list default="true" id="17665531-d6f8-4784-b9da-3f7cea438d98" name="Changes" comment="Done guide &quot;Java for Beginners&quot; alishev">
       <change beforePath="$PROJECT_DIR$/LearnJava/src/LeetCode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJava/src/LeetCode/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LearnJava/src/LeetCode/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJava/src/LeetCode/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LearnJava/src/LeetCode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearnJava/src/LeetCode/Test.java" afterDir="false" />
@@ -16,6 +19,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2ugDL3IsPMbDbVksEtS4lV2Qyrb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,7 +30,8 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/MyProject/java project",
+    "last_opened_file_path": "D:/My_project/LearnJava",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
