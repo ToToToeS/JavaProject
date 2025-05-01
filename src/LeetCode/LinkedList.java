@@ -14,7 +14,7 @@ public class LinkedList {
         Node(int val, Node next) { this.next = next; }
     }
 
-    LinkedList() { this.firstNode = new Node(); this.lastNode = firstNode; }
+    public LinkedList() { this.firstNode = new Node(); this.lastNode = firstNode; }
     LinkedList(int val) { this.firstNode = new Node(val); this.lastNode = firstNode; }
 
     void add(int val) {
