@@ -26,6 +26,6 @@ public class myListIterator {
         System.out.println("It's palindrome ");
 
         Integer[] a = {1, 2, 3, 4 ,5 ,4};
-        Collections.binarySearch(a, 3);
+        System.out.println(Arrays.binarySearch(a, 5));
     }
 }

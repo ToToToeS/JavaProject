@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="582f6337-d448-45c1-97d2-f1e62fe557b5" name="Changes" comment="I will start work on begin Java">
-      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/myListIterator.java" afterDir="false" />
+    <list default="true" id="582f6337-d448-45c1-97d2-f1e62fe557b5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/HashMap/MyHashCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/HashMap/MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/MyTreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/MyVector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UpgradeJava/myListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UpgradeJava/myListIterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +37,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/ToToToeS/JavaProject.git&quot;,
-    &quot;accountId&quot;: &quot;a3874210-280a-4d9b-a5bd-82fe5e3e3e18&quot;
+    &quot;accountId&quot;: &quot;86e95583-8dd2-42a8-b575-40830a1210fb&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -47,32 +51,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.MyArrayList.executor": "Run",
-    "Application.myListIterator.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "release",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/My_project/JavaProject",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "http.proxy",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyArrayList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyArrayListMethods2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyHashCode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyHashMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyTreeMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.myIterator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.myListIterator.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/My_project/JavaProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.myListIterator">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Main" />
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="UpgradeJava" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyTreeMap">
+    <configuration name="MyHashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpgradeJava.HashMap.MyHashCode" />
       <module name="Jav" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
+          <option name="PATTERN" value="UpgradeJava.HashMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,8 +96,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UpgradeJava.MyArrayList" />
+    <configuration name="MyHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpgradeJava.HashMap.MyHashMap" />
+      <module name="Jav" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UpgradeJava.HashMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpgradeJava.MyStack" />
+      <module name="Jav" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UpgradeJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTreeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpgradeJava.MyTreeMap" />
       <module name="Jav" />
       <extension name="coverage">
         <pattern>
@@ -108,9 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyTreeMap" />
+        <item itemvalue="Application.MyHashCode" />
+        <item itemvalue="Application.MyHashMap" />
+        <item itemvalue="Application.MyStack" />
         <item itemvalue="Application.myListIterator" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MyArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -133,8 +177,10 @@
       <workItem from="1746010908964" duration="22000" />
       <workItem from="1746011010367" duration="16000" />
       <workItem from="1746011206954" duration="5480000" />
-      <workItem from="1746197100467" duration="597000" />
-      <workItem from="1746203518607" duration="5182000" />
+      <workItem from="1746094499427" duration="814000" />
+      <workItem from="1746095444505" duration="3009000" />
+      <workItem from="1746386223165" duration="840000" />
+      <workItem from="1746393353190" duration="328000" />
     </task>
     <servers />
   </component>
