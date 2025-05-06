@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="582f6337-d448-45c1-97d2-f1e62fe557b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/HashMap/MyHashCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/HashMap/MyHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/MyTreeMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/MyVector.java" afterDir="false" />
+    <list default="true" id="582f6337-d448-45c1-97d2-f1e62fe557b5" name="Changes" comment="8 video guide complete">
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/Deque/MyDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/HashMap/MyHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/HashMap/MyLinkedHash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/Queue/MyPriorityQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/Queue/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/Set/MyHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/Set/MyLinkedHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/Set/MyTreeSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UpgradeJava/myListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UpgradeJava/myListIterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +39,14 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/ToToToeS/JavaProject.git&quot;,
-    &quot;accountId&quot;: &quot;86e95583-8dd2-42a8-b575-40830a1210fb&quot;
+    &quot;accountId&quot;: &quot;a3874210-280a-4d9b-a5bd-82fe5e3e3e18&quot;
   }
 }</component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -51,44 +58,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyArrayList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyArrayListMethods2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyHashCode.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyHashMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyStack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyTreeMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.myIterator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.myListIterator.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/My_project/JavaProject&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.MyArrayList.executor": "Run",
+    "Application.MyDeque.executor": "Run",
+    "Application.MyHashSet.executor": "Run",
+    "Application.MyLinkedHash.executor": "Run",
+    "Application.MyLinkedHashSet.executor": "Run",
+    "Application.MyPriorityQueue.executor": "Run",
+    "Application.MyQueue (1).executor": "Run",
+    "Application.MyQueue.executor": "Run",
+    "Application.MyTreeMap.executor": "Run",
+    "Application.MyTreeSet.executor": "Run",
+    "Application.myListIterator.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "release",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/My_project/JavaProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "http.proxy",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="UpgradeJava" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.MyTreeMap">
-    <configuration name="MyHashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UpgradeJava.HashMap.MyHashCode" />
+}]]></component>
+  <component name="RunManager" selected="Application.MyDeque">
+    <configuration name="MyDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpgradeJava.Deque.MyDeque" />
       <module name="Jav" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UpgradeJava.HashMap.*" />
+          <option name="PATTERN" value="UpgradeJava.Deque.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UpgradeJava.HashMap.MyHashMap" />
+    <configuration name="MyLinkedHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpgradeJava.Set.MyLinkedHashSet" />
       <module name="Jav" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UpgradeJava.HashMap.*" />
+          <option name="PATTERN" value="UpgradeJava.Set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UpgradeJava.MyStack" />
+    <configuration name="MyPriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpgradeJava.Queue.MyPriorityQueue" />
       <module name="Jav" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UpgradeJava.*" />
+          <option name="PATTERN" value="UpgradeJava.Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTreeMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UpgradeJava.MyTreeMap" />
+    <configuration name="MyQueue (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpgradeJava.Queue.MyQueue" />
       <module name="Jav" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UpgradeJava.*" />
+          <option name="PATTERN" value="UpgradeJava.Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="myListIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UpgradeJava.myListIterator" />
+    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpgradeJava.Queue.MyQueue" />
       <module name="Jav" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UpgradeJava.*" />
+          <option name="PATTERN" value="UpgradeJava.Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyTreeMap" />
-        <item itemvalue="Application.MyHashCode" />
-        <item itemvalue="Application.MyHashMap" />
-        <item itemvalue="Application.MyStack" />
-        <item itemvalue="Application.myListIterator" />
+        <item itemvalue="Application.MyDeque" />
+        <item itemvalue="Application.MyQueue (1)" />
+        <item itemvalue="Application.MyQueue" />
+        <item itemvalue="Application.MyPriorityQueue" />
+        <item itemvalue="Application.MyLinkedHashSet" />
       </list>
     </recent_temporary>
   </component>
@@ -177,10 +181,10 @@
       <workItem from="1746010908964" duration="22000" />
       <workItem from="1746011010367" duration="16000" />
       <workItem from="1746011206954" duration="5480000" />
-      <workItem from="1746094499427" duration="814000" />
-      <workItem from="1746095444505" duration="3009000" />
-      <workItem from="1746386223165" duration="840000" />
-      <workItem from="1746393353190" duration="328000" />
+      <workItem from="1746197100467" duration="597000" />
+      <workItem from="1746203518607" duration="5182000" />
+      <workItem from="1746516782043" duration="1394000" />
+      <workItem from="1746527148125" duration="6283000" />
     </task>
     <servers />
   </component>
@@ -209,5 +213,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/UpgradeJava/Deque/MyDeque.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
