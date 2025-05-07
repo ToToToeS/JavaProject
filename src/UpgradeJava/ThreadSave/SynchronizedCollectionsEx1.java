@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class MySynchronizedCollections {
+public class SynchronizedCollectionsEx1 {
     public static void main(String[] args) throws InterruptedException {
         List<Integer> list = new ArrayList<>();
 
