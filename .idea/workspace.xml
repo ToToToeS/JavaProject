@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="582f6337-d448-45c1-97d2-f1e62fe557b5" name="Changes" comment="8 video guide complete">
-      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/Deque/MyDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/HashMap/MyHashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/HashMap/MyLinkedHash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/Queue/MyPriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/Queue/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/Set/MyHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/Set/MyLinkedHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/Set/MyTreeSet.java" afterDir="false" />
+    <list default="true" id="582f6337-d448-45c1-97d2-f1e62fe557b5" name="Changes" comment="25 video guide complete">
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/ThreadSave/MySynchronizedCollections.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,13 +55,14 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.MyArrayList.executor": "Run",
-    "Application.MyDeque.executor": "Run",
+    "Application.MyDeque.executor": "Debug",
     "Application.MyHashSet.executor": "Run",
     "Application.MyLinkedHash.executor": "Run",
     "Application.MyLinkedHashSet.executor": "Run",
     "Application.MyPriorityQueue.executor": "Run",
     "Application.MyQueue (1).executor": "Run",
     "Application.MyQueue.executor": "Run",
+    "Application.MySynchronizedCollections.executor": "Run",
     "Application.MyTreeMap.executor": "Run",
     "Application.MyTreeSet.executor": "Run",
     "Application.myListIterator.executor": "Run",
@@ -86,26 +80,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MyDeque">
+  <component name="RunManager" selected="Application.MySynchronizedCollections">
     <configuration name="MyDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UpgradeJava.Deque.MyDeque" />
       <module name="Jav" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="UpgradeJava.Deque.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyLinkedHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UpgradeJava.Set.MyLinkedHashSet" />
-      <module name="Jav" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UpgradeJava.Set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,13 +133,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MySynchronizedCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpgradeJava.ThreadSave.MySynchronizedCollections" />
+      <module name="Jav" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UpgradeJava.ThreadSave.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MySynchronizedCollections" />
         <item itemvalue="Application.MyDeque" />
         <item itemvalue="Application.MyQueue (1)" />
         <item itemvalue="Application.MyQueue" />
         <item itemvalue="Application.MyPriorityQueue" />
-        <item itemvalue="Application.MyLinkedHashSet" />
       </list>
     </recent_temporary>
   </component>
@@ -184,8 +178,18 @@
       <workItem from="1746197100467" duration="597000" />
       <workItem from="1746203518607" duration="5182000" />
       <workItem from="1746516782043" duration="1394000" />
-      <workItem from="1746527148125" duration="6283000" />
+      <workItem from="1746527148125" duration="11251000" />
+      <workItem from="1746613373245" duration="1034000" />
     </task>
+    <task id="LOCAL-00001" summary="25 video guide complete">
+      <option name="closed" value="true" />
+      <created>1746549171608</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746549171608</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,15 +218,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/UpgradeJava/Deque/MyDeque.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="25 video guide complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="25 video guide complete" />
   </component>
 </project>
