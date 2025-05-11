@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="582f6337-d448-45c1-97d2-f1e62fe557b5" name="Changes" comment="26 video guide complete">
-      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/Streams/StreamEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/Streams/StreamsReduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/Threadss/ThreadsEX.java" afterDir="false" />
+    <list default="true" id="582f6337-d448-45c1-97d2-f1e62fe557b5" name="Changes" comment="25 video guide complete">
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/ThreadSave/MySynchronizedCollections.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,45 +51,81 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyArrayList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyDeque.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MyHashSet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyLinkedHash.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyLinkedHashSet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyPriorityQueue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyQueue (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyQueue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MySynchronizedCollections.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyTreeMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyTreeSet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamEx.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamsReduce.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadsEX.executor&quot;: &quot;Run&quot;,
-    &quot;Application.myListIterator.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;release&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/My_project/JavaProject&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.MyArrayList.executor": "Run",
+    "Application.MyDeque.executor": "Debug",
+    "Application.MyHashSet.executor": "Run",
+    "Application.MyLinkedHash.executor": "Run",
+    "Application.MyLinkedHashSet.executor": "Run",
+    "Application.MyPriorityQueue.executor": "Run",
+    "Application.MyQueue (1).executor": "Run",
+    "Application.MyQueue.executor": "Run",
+    "Application.MySynchronizedCollections.executor": "Run",
+    "Application.MyTreeMap.executor": "Run",
+    "Application.MyTreeSet.executor": "Run",
+    "Application.myListIterator.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "release",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/My_project/JavaProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "http.proxy",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.ThreadsEX">
+}]]></component>
+  <component name="RunManager" selected="Application.MySynchronizedCollections">
     <configuration name="MyDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UpgradeJava.Deque.MyDeque" />
       <module name="Jav" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="UpgradeJava.Deque.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyPriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpgradeJava.Queue.MyPriorityQueue" />
+      <module name="Jav" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UpgradeJava.Queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyQueue (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpgradeJava.Queue.MyQueue" />
+      <module name="Jav" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UpgradeJava.Queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpgradeJava.Queue.MyQueue" />
+      <module name="Jav" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UpgradeJava.Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,52 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UpgradeJava.Streams.StreamEx" />
-      <module name="Jav" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UpgradeJava.Streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamsReduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UpgradeJava.Streams.StreamsReduce" />
-      <module name="Jav" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UpgradeJava.Streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadsEX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UpgradeJava.Threadss.ThreadsEX" />
-      <module name="Jav" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UpgradeJava.Threadss.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadsEX" />
-        <item itemvalue="Application.StreamsReduce" />
-        <item itemvalue="Application.StreamEx" />
         <item itemvalue="Application.MySynchronizedCollections" />
         <item itemvalue="Application.MyDeque" />
+        <item itemvalue="Application.MyQueue (1)" />
+        <item itemvalue="Application.MyQueue" />
+        <item itemvalue="Application.MyPriorityQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -184,10 +179,7 @@
       <workItem from="1746203518607" duration="5182000" />
       <workItem from="1746516782043" duration="1394000" />
       <workItem from="1746527148125" duration="11251000" />
-      <workItem from="1746613373245" duration="5833000" />
-      <workItem from="1746776237336" duration="3398000" />
-      <workItem from="1746783252014" duration="843000" />
-      <workItem from="1746954547909" duration="84000" />
+      <workItem from="1746613373245" duration="1034000" />
     </task>
     <task id="LOCAL-00001" summary="25 video guide complete">
       <option name="closed" value="true" />
@@ -197,15 +189,7 @@
       <option name="project" value="LOCAL" />
       <updated>1746549171608</updated>
     </task>
-    <task id="LOCAL-00002" summary="26 video guide complete">
-      <option name="closed" value="true" />
-      <created>1746635570072</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1746635570072</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +220,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="25 video guide complete" />
-    <MESSAGE value="26 video guide complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="26 video guide complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="25 video guide complete" />
   </component>
 </project>
