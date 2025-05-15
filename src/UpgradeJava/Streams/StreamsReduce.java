@@ -9,3 +9,6 @@ public class StreamsReduce {
         System.out.println(resulst);
     }
 }
+
+
+

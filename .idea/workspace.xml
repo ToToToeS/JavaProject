@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="582f6337-d448-45c1-97d2-f1e62fe557b5" name="Changes" comment="25 video guide complete">
-      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/ThreadSave/MySynchronizedCollections.java" afterDir="false" />
+    <list default="true" id="582f6337-d448-45c1-97d2-f1e62fe557b5" name="Changes" comment="33 video guide complete">
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/EnumEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/ScannerEX1/Scan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/Streams/SteamCollect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/Streams/StreamEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/Streams/StreamFindFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/Streams/StreamFlatMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/ThreadSave/ArrayBlockingQueueEX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/ThreadSave/ComparatorEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/ThreadSave/ConcaredeHashMapEX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UpgradeJava/ThreadSave/CopyAndWriteArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UpgradeJava/Streams/StreamsReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UpgradeJava/Streams/StreamsReduce.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +63,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayBlockingQueueEX.executor": "Run",
+    "Application.ComparatorEx.executor": "Run",
+    "Application.ConcaredeHashMapEX.executor": "Run",
+    "Application.EnumEx.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MyArrayList.executor": "Run",
     "Application.MyDeque.executor": "Debug",
@@ -65,6 +79,10 @@
     "Application.MySynchronizedCollections.executor": "Run",
     "Application.MyTreeMap.executor": "Run",
     "Application.MyTreeSet.executor": "Run",
+    "Application.Scan.executor": "Run",
+    "Application.SteamCollect.executor": "Run",
+    "Application.StreamEx2.executor": "Run",
+    "Application.StreamFlatMap.executor": "Run",
     "Application.myListIterator.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -80,13 +98,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MySynchronizedCollections">
-    <configuration name="MyDeque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UpgradeJava.Deque.MyDeque" />
+  <component name="RunManager" selected="Application.SteamCollect">
+    <configuration name="EnumEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpgradeJava.EnumEx" />
       <module name="Jav" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UpgradeJava.Deque.*" />
+          <option name="PATTERN" value="UpgradeJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyPriorityQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UpgradeJava.Queue.MyPriorityQueue" />
+    <configuration name="Scan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpgradeJava.ScannerEX1.Scan" />
       <module name="Jav" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UpgradeJava.Queue.*" />
+          <option name="PATTERN" value="UpgradeJava.ScannerEX1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyQueue (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UpgradeJava.Queue.MyQueue" />
+    <configuration name="SteamCollect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpgradeJava.Streams.SteamCollect" />
       <module name="Jav" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UpgradeJava.Queue.*" />
+          <option name="PATTERN" value="UpgradeJava.Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UpgradeJava.Queue.MyQueue" />
+    <configuration name="StreamEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpgradeJava.Streams.StreamEx2" />
       <module name="Jav" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UpgradeJava.Queue.*" />
+          <option name="PATTERN" value="UpgradeJava.Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySynchronizedCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UpgradeJava.ThreadSave.MySynchronizedCollections" />
+    <configuration name="StreamFlatMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UpgradeJava.Streams.StreamFlatMap" />
       <module name="Jav" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UpgradeJava.ThreadSave.*" />
+          <option name="PATTERN" value="UpgradeJava.Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MySynchronizedCollections" />
-        <item itemvalue="Application.MyDeque" />
-        <item itemvalue="Application.MyQueue (1)" />
-        <item itemvalue="Application.MyQueue" />
-        <item itemvalue="Application.MyPriorityQueue" />
+        <item itemvalue="Application.SteamCollect" />
+        <item itemvalue="Application.StreamFlatMap" />
+        <item itemvalue="Application.StreamEx2" />
+        <item itemvalue="Application.Scan" />
+        <item itemvalue="Application.EnumEx" />
       </list>
     </recent_temporary>
   </component>
@@ -180,6 +198,15 @@
       <workItem from="1746516782043" duration="1394000" />
       <workItem from="1746527148125" duration="11251000" />
       <workItem from="1746613373245" duration="1034000" />
+      <workItem from="1746955131853" duration="327000" />
+      <workItem from="1747027138830" duration="3000" />
+      <workItem from="1747039728961" duration="6904000" />
+      <workItem from="1747118497035" duration="33000" />
+      <workItem from="1747125839609" duration="596000" />
+      <workItem from="1747129041295" duration="3000" />
+      <workItem from="1747226831205" duration="6473000" />
+      <workItem from="1747234013810" duration="97000" />
+      <workItem from="1747301150866" duration="5000000" />
     </task>
     <task id="LOCAL-00001" summary="25 video guide complete">
       <option name="closed" value="true" />
@@ -206,7 +233,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="release" />
                       </list>
                     </value>
                   </entry>
